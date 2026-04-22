@@ -19,7 +19,7 @@ This repository documents a professional-grade Magento 2.4 setup on AWS EC2 (Deb
 * Redis Caching: Implemented for both Session storage and Page Cache to offload database operations.
 * Optimization: Used `bin/magento indexer:reindex` and `cache:flush` to ensure database integrity and speed (as seen in terminal logs).
 ## Implementation Evidence (Terminal Logs)
-![Terminal Logs](terminal-logs(1).png)
+![Terminal Logs](terminal-logs.png)
 
 ## Security & Permissions
 * Custom User: The entire stack runs under a dedicated `test-ssh` user and `clp` group.

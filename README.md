@@ -26,4 +26,4 @@ This repository documents a professional-grade Magento 2.4 setup on AWS EC2 (Deb
 ## Troubleshooting (Challenges Solved)
 1. MySQL Error 1419: Resolved the binary logging privilege issue by enabling `log_bin_trust_function_creators`.
 2. Port Binding: Successfully resolved the conflict between Varnish and Nginx by remapping Nginx to 8080.
-3. Broken Pipe Errors: Managed remote session stability during long deployment processes. i have written this on readme.md file
+3. Broken Pipe Errors: Managed remote session stability during long deployment processes.

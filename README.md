@@ -29,3 +29,10 @@ This repository documents a professional-grade Magento 2.4 setup on AWS EC2 (Deb
 1. MySQL Error 1419: Resolved the binary logging privilege issue by enabling `log_bin_trust_function_creators`.
 2. Port Binding: Successfully resolved the conflict between Varnish and Nginx by remapping Nginx to 8080.
 3. Broken Pipe Errors: Managed remote session stability during long deployment processes.
+
+##  Configuration Files Reference
+You can find the detailed configuration files used in this setup in the `/configurations` directory:
+* **Varnish:** Optimized for Port 80 frontend.
+* **Nginx:** Configured on Port 8080 as a backend.
+* **PHP-FPM:** Custom pool for `test-ssh` user.
+* **Cron:** Automated job scheduling for Magento.
